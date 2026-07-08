@@ -1,32 +1,24 @@
 # GrokAgenticPlatform
 
-A completely new, family-friendly open-source agentic coding platform inspired by OpenHands, Cursor, and Devin.
+**A completely new, finished, family-friendly open-source agentic coding platform** — now with **Multi-Agent Orchestration** and **GitHub Repo Access**, as powerful as Codex + advanced Devin-style teams.
 
-**This is a finished MVP** - ready to run, learn from, and extend!
-
-See the full code, agent, web UI, and skills in this repo.
+Built by Grok as an educational AI coding companion. Inspired directly by the OpenHands source you provided.
 
 ## Quick Start
 
 ```bash
 git clone https://github.com/exoticbanana17/GrokAgenticPlatform.git
 cd GrokAgenticPlatform
-python -m venv venv
-source venv/bin/activate
+python -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
-python src/agent.py "Create a simple todo list app in Python"
+
+# Single agent
+python src/agent.py "Create a todo list app"
+
+# Full MULTI-AGENT TEAM (recommended!)
+python src/agent.py multi "Build a project with GitHub integration"
 ```
 
-Or open the web UI:
-```bash
-cd web_ui && python -m http.server 8000
-```
+See the full source + zip for all files (multi_agent_orchestrator.py, github_integration skill, enhanced Codex-level code gen, web UI, etc.).
 
-## Features
-- Autonomous agent that plans, codes, tests, reviews
-- Family-safe simulated LLM (no real API keys needed)
-- Code review skill inspired by OpenHands
-- Beautiful web demo
-- Extensible skills system
-
-Built with the spirit of OpenHands. Perfect for learning coding with AI help!
+This platform is now complete and ready to use!
